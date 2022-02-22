@@ -1,0 +1,65 @@
+// I-MAG
+digraph {
+	node [shape=circle]
+	F_1
+	F_2
+	F_3
+	F_4
+	F_5
+	F_6
+	F_7
+	F_8
+	F_9
+	F_10
+	F_11
+	F_12
+	F_13
+	F_14
+	F_15
+	Raf
+	Mek
+	Plcg
+	PIP2
+	PIP3
+	Erk
+	Akt
+	PKA
+	PKC
+	P38
+	Jnk
+	F_1 -> PKA
+	F_2 -> Raf
+	F_2 -> Mek
+	F_3 -> PIP2
+	F_4 -> Jnk
+	F_7 -> Plcg
+	F_7 -> PKA
+	F_8 -> PKA
+	F_9 -> Plcg
+	F_9 -> PKA
+	F_10 -> Raf
+	F_10 -> Mek
+	F_10 -> PIP2
+	F_11 -> Raf
+	F_11 -> Mek
+	F_12 -> Raf
+	F_12 -> Mek
+	F_13 -> PIP2
+	F_13 -> Jnk
+	F_14 -> PIP2
+	F_14 -> Akt
+	F_15 -> PIP2
+	F_15 -> Jnk
+	Raf -> PKA [arrowhead=normal arrowtail=normal dir=both]
+	Mek -> PKA [arrowhead=normal arrowtail=normal dir=both]
+	Plcg -> PIP2 [arrowhead=normal arrowtail=normal dir=both]
+	PIP3 -> PIP2 [arrowhead=normal arrowtail=odot dir=both]
+	PIP3 -> PKA [arrowhead=normal arrowtail=odot dir=both]
+	Erk -> Raf [arrowhead=normal arrowtail=odot dir=both]
+	Erk -> PKA [arrowhead=normal arrowtail=odot dir=both]
+	PKC -> Raf [arrowhead=normal arrowtail=odot dir=both]
+	PKC -> PIP2 [arrowhead=normal arrowtail=odot dir=both]
+	PKC -> PKA [arrowhead=normal arrowtail=odot dir=both]
+	PKC -> Jnk [arrowhead=normal arrowtail=odot dir=both]
+	P38 -> PKA [arrowhead=normal arrowtail=odot dir=both]
+}
