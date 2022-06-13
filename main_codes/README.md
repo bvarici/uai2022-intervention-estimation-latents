@@ -1,10 +1,15 @@
+
 # intervention-estimation-latents
-Codes for CLeaR2022 submission: Intervention Target Estimation in the Presence of Latent Variables
+Codes for UAI 2022 paper: Intervention Target Estimation in the Presence of Latent Variables
 
-run_simulations.py: The simulations plotted in Figure 2 of the paper.
-plot_simulations.py: Generate the figures.
+run_simulations.py: The simulations with synthetic data. 
+run_sachs_data.py: The simulations with protein signaling data (Sachs dataset). 
+Preprocessed data is taken from https://github.com/csquires/utigsp.
 
-run_sachs_data.py: The real data experiments with Sachs protein signaling dataset. (preprocessed data is taken from causaldag)
-plot_sachs_result.py: Requires graphviz. Plot the estimated causal structure for Sachs.
+plot_simulations.py: Generate Figure 2 in main text and Figure 4 in Appendix D.1.
+plot_sachs_results.py: Generate Figure 3 in main text and Figure 7 in Appendix D.3.
+(Requires graphviz package). 
+
+Note: requires causaldag package (https://github.com/uhlerlab/causaldag).
 
 TO-DO: create a notebook for step by step instructions.
